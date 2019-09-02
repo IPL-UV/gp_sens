@@ -1,0 +1,21 @@
+name: gp_sens
+channels:
+- defaults
+- conda-forge
+dependencies:
+- pip:
+  - prosail
+- scipy
+- numpy
+- scikit-learn
+- matplotlib
+- statsmodels
+- pandas
+- seaborn
+- ipykernel
+- pip
+- pip:
+  - prosail
+  - git+https://github.com/amzn/Emukit.git
+  - GPy
+  - pyDOE2
